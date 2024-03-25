@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+   
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    
+}
+img{
+    float:right;
+    width: 200px;
+    height: 200px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Social Icons Styles */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #666;
+}
